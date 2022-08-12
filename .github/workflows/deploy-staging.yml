@@ -1,0 +1,9 @@
+name: build
+
+on: 
+  pull_request:
+    types: [labeled]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
